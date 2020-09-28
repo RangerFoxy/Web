@@ -1,0 +1,90 @@
+* {
+    display: block;
+}
+
+play {
+    background-color: ghostwhite;
+    background-image: url("kep.jpg");         /**/
+    background-repeat: no-repeat;             /**/
+    background-size: 1920px 1080px;           /**/
+    background-position: center;              /**/
+    padding: 1em;
+    opacity: 0.9;                             /**/
+}
+
+author, title {
+    font-variant: small-caps;
+    text-align: center;
+    font-style: italic;                      /**/
+    text-shadow: 2px 2px 5px blue;         /**/
+}
+
+author, play > title {
+    letter-spacing: 0.25em;
+}
+
+play > title {
+    font-size: xx-large;
+    margin-top: 0.5em;
+}
+
+author, act > title {
+    font-size: x-large;
+}
+
+scene > title {
+    font-size: large;
+    border: thin solid red;
+    border-radius: 9px;                      /**/
+    border-width: 4px;                       /**/
+    border-style: dotted;                    /**/
+    font-family: sans-serif;                 /**/
+    padding: 0.5em;
+}
+
+act {
+    margin-top: 1em;
+    border-top: 0.25em solid black;
+    padding-top: 1em;
+}
+
+scene {
+    padding-top: 1em;
+}
+
+speech, scene > stagedir {
+    margin-top: 1em;
+    
+}
+
+stagedir {
+    font-style: italic;
+    color: gray;
+    font-weight: bold;                      /**/
+    text-align: justify;                    /**/
+    text-decoration: underline overline;    /**/
+
+}
+
+stagedir::before {
+    content: "(";
+}
+
+stagedir::after {
+    content: ")";
+}
+
+line > stagedir {
+    display: inline;
+}
+
+speech > line, speech > stagedir {
+    margin-left: 1em;
+    font-weight: bold;                  /**/
+}
+
+speaker {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff66cc;                 /**/
+}
