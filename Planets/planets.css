@@ -1,0 +1,13 @@
+body {
+    background-color: #f8fce1;
+}
+
+table, td {
+    border-collapse: collapse;
+    border: thin solid;
+}
+
+td {
+    padding: 5px;
+    text-align: justify;
+}

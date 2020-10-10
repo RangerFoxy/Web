@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT planets (planet*)>
+<!ELEMENT planet (name, short, symbol)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT short (#PCDATA)>
+<!ELEMENT symbol (#PCDATA)>
