@@ -1,0 +1,70 @@
+[
+   {
+      "name": [
+         {
+            "@lang": "en",
+            "#text": "Mercury"
+         },
+         {
+            "@lang": "hu",
+            "#text": "Merkúr"
+         },
+         {
+            "@lang": "zh",
+            "#text": "水星"
+         }
+      ],
+      "iauAbbrev": "Me",
+      "symbol": "☿"
+   },
+   {
+      "name": [
+         {
+            "@lang": "en",
+            "#text": "Venus"
+         },
+         {
+            "@lang": "hu",
+            "#text": "Vénusz"
+         },
+         {
+            "@lang": "zh",
+            "#text": "金星"
+         }
+      ],
+      "iauAbbrev": "V",
+      "symbol": "♀"
+   },
+   {
+      "name": [
+         {
+            "@lang": "en",
+            "#text": "Earth"
+         },
+         {
+            "@lang": "hu",
+            "#text": "Föld"
+         },
+         {
+            "@lang": "zh",
+            "#text": "地球"
+         }
+      ],
+      "iauAbbrev": "E",
+      "symbol": "♁"
+   },
+   {
+      "name": [
+         {
+            "@lang": "en",
+            "#text": "Mars"
+         },
+         {
+            "@lang": "zh",
+            "#text": "火星"
+         }
+      ],
+      "iauAbbrev": "Ma",
+      "symbol": "♂"
+   }
+]
