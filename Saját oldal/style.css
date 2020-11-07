@@ -1,0 +1,133 @@
+html, body {
+    background-image: url("mojave.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.navi {
+    margin: 30px;
+    padding: 0 0 30px 0;
+    display: inline;
+}
+
+.navi ul {
+    overflow: hidden;
+    list-style: none;
+    background-color: #333;
+    border-radius: 5px;
+}
+  
+.navi li {
+    float: left;
+}
+.navi a {
+    color: white;
+}
+
+.navi li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navi li a:hover {
+    background-color:black;
+    color: green;
+}
+
+body {
+    color: white;
+}
+
+a {
+    color: #ffff66;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+    margin: 30px;
+}
+
+.szoveg {
+    background-color: grey;
+    padding: 3em;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#lista > li:before {
+    content: "🎮";
+    list-style-type: none;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2, h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-decoration: underline;
+    color: black;
+}
+
+td:nth-child(even):hover {
+    color: green;
+    background-color: black;
+}
+
+table {
+    border-radius: 1.5em;
+    overflow: hidden;
+}
+
+tr:nth-child(even) td{
+    background-color: #336699;
+}
+
+table, th, td {
+    border: 2px #00ffcc;
+    border-collapse: collapse;
+    background-color: grey;
+    padding: 12px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.copyright a {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    margin: 30px;
+    background: #336699;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+    padding-top: 30px;
+    border-radius: 5px;
+}
