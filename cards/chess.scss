@@ -1,0 +1,60 @@
+.chessboard {
+	border-collapse: collapse;
+	margin: 1em auto;
+}
+
+.chessboard th {
+	font-weight: normal;
+}
+
+.chessboard > tbody > tr:nth-child(odd) > td:nth-child(odd) {
+	background-color: lightgray;
+}
+
+.chessboard > tbody > tr:nth-child(odd) > td:nth-child(even) {
+	background-color: white;
+}
+
+.chessboard > tbody > tr:nth-child(even) > td:nth-child(odd) {
+	background-color: white;
+}
+
+.chessboard > tbody > tr:nth-child(even) > td:nth-child(even) {
+	background-color: lightgray;
+}
+
+.chessboard td, .chessboard th {
+	width: 1.5em;
+	height: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.chessboard > tbody > tr:first-child > td {
+	border-top: medium solid black;
+}
+
+.chessboard > tbody > tr:last-child > td {
+	border-bottom: medium solid black;
+}
+
+.chessboard > tbody > tr > td:first-of-type {
+	border-left: medium solid black;
+}
+
+.chessboard > tbody > tr > td:last-of-type {
+	border-right: medium solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
